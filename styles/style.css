@@ -1,4 +1,4 @@
-root {
+:root {
     --primary-text-color: #ffffff;
     --secondary-text-color: #EBEBEBEB;
 
@@ -17,6 +17,58 @@ root {
 body {
     width: 100%;
     height: 100vh;
+    font-family: 'Raleway', sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background-color: var(--main-bg-color);
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+header .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 0 40px;
+    border-bottom: 1px solid var(--secondary-text-color);
+}
+
+header img {
+    transition: all .5s;
+}
+
+header img:hover {
+    scale: 105%;
+}
+
+header ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--secondary-text-color);
+    font-size: 20px;
+    transition: all .5s;
+}
+
+header a:hover {
+    color: var(--primary-btn-color);
+}
+
+header .header-menu {
+    padding-right: 20px;
 }
