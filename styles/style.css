@@ -1,0 +1,22 @@
+root {
+    --primary-text-color: #ffffff;
+    --secondary-text-color: #EBEBEBEB;
+
+    --primary-btn-color: #C03BFF;
+    --secondary-btn-color: #9200D7;
+
+    --main-bg-color: #101010;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
