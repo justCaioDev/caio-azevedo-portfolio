@@ -72,3 +72,54 @@ header a:hover {
 header .header-menu {
     padding-right: 20px;
 }
+
+main .hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    margin-top: 130px;
+    padding: 0 60px;
+}
+
+main .hero-d {
+    width: 542px;
+    color: var(--primary-text-color);
+}
+
+main .hero-oi {
+    font-size: 14px;
+    color: var(--secondary-text-color);
+}
+
+main .hero-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 64px;
+}
+
+main .hero-description {
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    color: var(--secondary-text-color);
+}
+
+main .hero-btn {
+    width: 255px;
+    height: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: none;
+    background-image: linear-gradient(45deg, var(--primary-btn-color), var(--secondary-btn-color));
+    color: var(--primary-text-color);
+    cursor: pointer;
+    transition: font-size .7s;
+}
+
+main .hero-btn:hover {
+    background-image: linear-gradient(45deg, #cb61fc, #7103a3);
+}
