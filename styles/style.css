@@ -398,3 +398,13 @@ main .contato {
 main .contato:hover {
     color: var(--primary-btn-color);
 }
+
+footer {
+    margin: 270px 60px 0;
+    padding-bottom: 80px;
+}
+
+footer .footer-content {
+    font-size: 14px;
+    color: var(--secondary-text-color);
+}
