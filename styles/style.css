@@ -170,3 +170,28 @@ main .row-container {
     width: 100%;
     height: 150px;
 }
+
+main .row {
+    position: relative;
+    width: inherit;
+    height: inherit;
+    margin: 0 40px;
+    overflow: hidden;
+}
+
+main .row-imgs {
+    position: absolute;
+    left: 0;
+    top: 0;
+    animation: row 10s infinite alternate ease-in-out;
+    transition: all 2s;
+}
+
+@keyframes row {
+    0% {
+        left: 0;
+    }
+    100% {
+        left: -1560px;
+    }
+}
