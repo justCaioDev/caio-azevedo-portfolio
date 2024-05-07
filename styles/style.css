@@ -176,7 +176,7 @@ main .row {
     position: relative;
     width: inherit;
     height: inherit;
-    margin: 0 40px;
+    margin: 0 60px;
     overflow: hidden;
 }
 
@@ -198,7 +198,7 @@ main .row-imgs {
 }
 
 main .projects-container {
-    margin: 0 40px;
+    margin: 140px 60px;
 }
 
 main .projects-title {
@@ -272,5 +272,86 @@ main .projects-btn {
 }
 
 main .projects-btn:hover {
+    background-image: linear-gradient(45deg, #cb61fc, #7103a3);
+}
+
+main .sobre-container {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin: 140px 60px;
+}
+
+main .sobre-d {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+main .sobre-dtitle {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 500;
+    font-size: 64px;
+    margin-bottom: 20px;
+    color: var(--primary-text-color);
+}
+
+main .skills {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: var(--secondary-text-color);
+}
+
+main .sobre-e {
+    display: flex;
+    flex-direction: column;
+    width: 540px;
+    
+}
+
+main .sobre-etitle{
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 500;
+    font-size: 64px;
+    text-align: right;
+    margin-bottom: 20px;
+    color: var(--primary-text-color);
+}
+
+main .sobre-description {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: var(--secondary-text-color);
+}
+
+main .sobre-btn-container {
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+main .sobre-caption {
+    font-size: 14px;
+    color: var(--secondary-text-color);
+}
+
+main .sobre-btn {
+    width: 350px;
+    height: 50px;
+    margin-top: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px 15px;
+    border-radius: 10px;
+    border: none;
+    background-image: linear-gradient(45deg, var(--primary-btn-color), var(--secondary-btn-color));
+    color: var(--primary-text-color);
+    cursor: pointer;
+    transition: font-size .7s;
+}
+
+main .sobre-btn:hover {
     background-image: linear-gradient(45deg, #cb61fc, #7103a3);
 }
