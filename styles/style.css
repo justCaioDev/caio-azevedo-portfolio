@@ -59,6 +59,11 @@ header {
     z-index: 1;
 }
 
+header .header-logo {
+    height: 90px;
+    margin: 10px auto;
+}
+
 header .header-container {
     display: flex;
     align-items: center;
