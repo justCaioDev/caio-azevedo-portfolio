@@ -229,7 +229,7 @@ main .projects-description {
 
 main .projects {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     flex-wrap: wrap;
     gap: 60px;
 }
@@ -238,14 +238,17 @@ main .project {
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-image: linear-gradient(45deg, var(--primary-btn-color), var(--secondary-btn-color));
+    background-image: linear-gradient(40deg, #6b039b, #ae00ff);
     overflow: hidden;
     border-radius: 10px;
+    border: 2px solid var(--main-bg-color);
+    box-shadow: 2px 2px 2px black;
     transition: scale .7s;
 }
 
 main .project:hover {
     scale: 105%;
+    background-image: linear-gradient(40deg, #62048e, #8302bf);
 }
 
 
@@ -256,9 +259,28 @@ a {
 main .project-name {
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
-    font-weight: 600;
+    font-weight: 700;
     padding: 5px 10px;
+    opacity: .9;
     color: var(--primary-text-color);
+}
+
+main .project-img {
+    width: 250px;
+    height: 200px;
+}
+
+main .project-tec {
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--secondary-text-color);
+    padding: 5px 40px;
+    opacity: .8;
+    transition: all .5s;
+}
+
+main .project-tec:hover {
+    opacity: 1;
 }
 
 main .projects-btn-container {

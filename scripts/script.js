@@ -60,4 +60,42 @@ function rowProjects() {
     }
 }
 
+function projectsMenu() {
+    const projects_Container = document.querySelector('.projects')
+    
+    for (let i = 0; i < projects.length; i++) {
+        const a = document.createElement('a')
+        const div_Project = document.createElement('div')
+        const project_Name = document.createElement('span')
+        const project_Img = document.createElement('img')
+
+        div_Project.classList.add('project')
+        project_Name.classList.add('project-name')
+        project_Img.classList.add('project-img')
+
+        
+        a.setAttribute('href', projects[i].url)
+        a.setAttribute('target', '_blank')
+        project_Name.textContent = projects[i].nome
+        project_Img.setAttribute('src', projects[i].img)
+        
+        div_Project.appendChild(project_Name)
+        div_Project.appendChild(project_Img)
+        for (let t = 0; t < projects[i].tecnologias.length; t++) {
+            const project_Tecs = document.createElement('span')
+
+            project_Tecs.classList.add('project-tec')
+
+            project_Tecs.textContent = projects[i].tecnologias[t]
+
+            div_Project.appendChild(project_Tecs)
+        }
+        a.appendChild(div_Project)
+        projects_Container.appendChild(a)
+
+    }
+}
+
+projectsMenu()
+
 rowProjects()
