@@ -193,20 +193,13 @@ main .row-container {
 }
 
 main .row {
-    position: relative;
+    display: flex;
     width: inherit;
     height: inherit;
     margin: 0 60px;
     overflow: hidden;
 }
 
-main .row-imgs {
-    position: absolute;
-    left: 0;
-    top: 0;
-    animation: row 10s infinite alternate ease-in-out;
-    transition: all 2s;
-}
 
 @keyframes row {
     0% {
