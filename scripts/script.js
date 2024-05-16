@@ -1,5 +1,15 @@
 const projects = [
     {
+        nome: "Curso Marketing Digital",
+        tecnologias: [
+            'HTML',
+            'CSS',
+            'SCSS'
+        ],
+        url: 'https://justcaiodev.github.io/landing-page-curso-marketing-digital/',
+        img: '../assets/banner-marketing-digital.png'
+    },
+    {
         nome: "Lorem GYM",
         tecnologias: [
             'HTML',
@@ -17,6 +27,16 @@ const projects = [
         ],
         url: 'https://justcaiodev.github.io/Lorem-Social/',
         img: '../assets/banner-lorem-social.png'
+    },
+    {
+        nome: "Ease Farming",
+        tecnologias: [
+            'JavaScript',
+            'HTML',
+            'CSS'
+        ],
+        url: 'justcaiodev.github.io/ease-farming/',
+        img: '../assets/banner-ease-farming.png'
     },
     {
         nome: "Studio Ghibli Filmes",
