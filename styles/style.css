@@ -460,3 +460,170 @@ footer .footer-content {
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.72), transparent 95%);
     z-index: 1;
 }
+
+@media screen and (max-width: 720px) {
+    header {
+        width: 100vw;
+        position: static;
+    }
+
+    header .header-logo {
+        height: 50px;
+    }
+
+    header .header-container {
+        width: 100%;
+        margin: 0;
+        padding: 0 10px;
+    }
+
+    header .header-menu {
+        display: none;
+    }
+
+    main .hero-container {
+        width: 100vw;
+        margin-top: 0;
+        padding: 0 20px;
+    }
+
+    main .hero-d {
+        width: 100vw;
+    }
+
+    main .hero-e {
+        display: none;
+    }
+
+    main .hero-oi {
+        font-size: 12px;
+    }
+
+    main .hero-title {
+        font-size: 42px;
+    }
+
+    main .hero-description {
+        font-size: 16px;
+    }
+
+    main .row {
+        width: 100%;
+        margin: 0 20px;
+    }
+
+    main .row-container {
+        width: 100%;
+    }
+
+    main .projects-container {
+        min-width: 100vw;
+        padding: 140px 20px;
+        margin: 0;
+    }
+
+    main .projects-title {
+        font-size: 42px;
+    }
+
+    main .projects-description {
+        font-size: 13px;
+    }
+
+    main .projects {
+        min-width: 100%;
+        flex-wrap: nowrap;
+        justify-content: left;
+        overflow-x: scroll;
+        padding-inline: 20px;
+    }
+
+    main .projects-btn-container {
+        width: 100%;
+    }
+
+    main .projects-btn {
+        width: 350px;
+        font-size: 16px;
+        padding: 0;
+    }
+
+    main .sobre-container {
+        min-width: 100vw;
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+        padding: 140px 20px;
+        margin: 0;
+    }
+
+    main .sobre-d {
+        width: 100%;
+    }
+
+    main .sobre-dtitle {
+        font-size: 42px;
+    }
+
+    main .skills {
+        font-size: 16px;
+    }
+
+    main .sobre-e {
+        min-width: 100%;
+        width: 0;
+    }
+
+    main .sobre-etitle {
+        font-size: 42px;
+    }
+
+    main .sobre-description {
+        font-size: 16px;
+    }
+
+    main .sobre-btn-container {
+        align-items: center;
+    }
+
+    main .sobre-caption {
+        font-size: 13px;
+    }
+
+    main .sobre-btn {
+        width: 300px;
+        font-size: 16px;
+    }
+
+    main .contato-container {
+        margin: 140px 20px;
+    }
+
+    main .contato-title {
+        font-size: 42px;
+    }
+
+    main .contato-description {
+        font-size: 13px;
+    }
+
+    main  .contato {
+        font-size: 30px;
+    }
+
+    footer {
+        width: 100vw;
+        padding: 270px 20px 80px;
+        margin: 0;
+    }
+
+    footer .footer-content {
+        font-size: 13px;
+    }
+
+    .bottom-gradient {
+        bottom: 0;
+        left: 0;
+        width: 100vw;
+    }
+}
