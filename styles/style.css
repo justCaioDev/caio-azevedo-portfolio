@@ -204,6 +204,10 @@ main .row {
     overflow: hidden;
 }
 
+main .row-img {
+    width: 300px;
+}
+
 
 @keyframes row {
     0% {

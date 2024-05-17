@@ -75,6 +75,7 @@ function rowProjects() {
 
     for (let i = 0; i < projects.length; i++) {
         const img = document.createElement('img')
+        img.classList.add('row-img')
         img.setAttribute('src', projects[i].img)
         row.appendChild(img)
     }
