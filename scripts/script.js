@@ -7,7 +7,7 @@ const projects = [
             'SCSS'
         ],
         url: 'https://justcaiodev.github.io/landing-page-curso-marketing-digital/',
-        img: '../assets/banner-marketing-digital.png'
+        img: 'assets/banner-marketing-digital.png'
     },
     {
         nome: "Lorem GYM",
@@ -16,7 +16,7 @@ const projects = [
             'CSS'
         ],
         url: 'https://justcaiodev.github.io/lorem-gym/',
-        img: '../assets/banner-lorem-gym.png'
+        img: 'assets/banner-lorem-gym.png'
     },
     {
         nome: "Lorem Social",
@@ -26,7 +26,7 @@ const projects = [
             'CSS'
         ],
         url: 'https://justcaiodev.github.io/Lorem-Social/',
-        img: '../assets/banner-lorem-social.png'
+        img: 'assets/banner-lorem-social.png'
     },
     {
         nome: "Ease Farming",
@@ -36,7 +36,7 @@ const projects = [
             'CSS'
         ],
         url: 'justcaiodev.github.io/ease-farming/',
-        img: '../assets/banner-ease-farming.png'
+        img: 'assets/banner-ease-farming.png'
     },
     {
         nome: "Studio Ghibli Filmes",
@@ -46,7 +46,7 @@ const projects = [
             'CSS'
         ],
         url: 'https://justcaiodev.github.io/ghibli-films/',
-        img: '../assets/banner-studio-ghibli.png'
+        img: 'assets/banner-studio-ghibli.png'
     },
     {
         nome: "Quiz Harry Potter",
@@ -56,7 +56,7 @@ const projects = [
             'CSS'
         ],
         url: 'https://justcaiodev.github.io/quiz-nlw-rocketseat/',
-        img: '../assets/banner-quizz-harry-potter.png'
+        img: 'assets/banner-quizz-harry-potter.png'
     },
     {
         nome: "IniciDev",
@@ -66,7 +66,7 @@ const projects = [
             'CSS'
         ],
         url: 'https://justcaiodev.github.io/inicidev/',
-        img: '../assets/banner-inicidev.png'
+        img: 'assets/banner-inicidev.png'
     }
 ]
 
