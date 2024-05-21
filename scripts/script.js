@@ -35,7 +35,7 @@ const projects = [
             'HTML',
             'CSS'
         ],
-        url: 'justcaiodev.github.io/ease-farming/',
+        url: 'https://justcaiodev.github.io/ease-farming/',
         img: 'assets/banner-ease-farming.png'
     },
     {
