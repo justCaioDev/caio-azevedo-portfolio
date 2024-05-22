@@ -72,13 +72,16 @@ const projects = [
 
 function rowProjects() {
     const row = document.querySelector('.row')
+    const rowImgs = document.createElement('div')
+    rowImgs.classList.add('row-imgs')
 
     for (let i = 0; i < projects.length; i++) {
         const img = document.createElement('img')
         img.classList.add('row-img')
         img.setAttribute('src', projects[i].img)
-        row.appendChild(img)
+        rowImgs.appendChild(img)
     }
+    row.appendChild(rowImgs)
 }
 
 function projectsMenu() {
