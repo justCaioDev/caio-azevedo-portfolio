@@ -209,7 +209,6 @@ main .row {
     padding-inline: 10px;
     margin: 0 60px;
     overflow-x: hidden;
-    background-image: linear-gradient(45deg, var(--primary-btn-color), var(--secondary-btn-color));
 }
 
 main .row-imgs {
@@ -554,6 +553,10 @@ footer .footer-content {
 
     main .row-container {
         width: 100%;
+    }
+
+    main .row-img {
+        width: 250px;
     }
 
     main .projects-container {
