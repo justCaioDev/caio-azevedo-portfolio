@@ -165,7 +165,7 @@ main .hero-btn {
     background-image: linear-gradient(45deg, var(--primary-btn-color), var(--secondary-btn-color));
     color: var(--primary-text-color);
     cursor: pointer;
-    transition: font-size .7s;
+    transition: all .5s;
 }
 
 main .hero-e {
@@ -184,6 +184,7 @@ main .hero-email {
 }
 
 main .hero-btn:hover {
+    width: 260px;
     background-image: linear-gradient(45deg, #cb61fc, #7103a3);
 }
 
@@ -311,10 +312,11 @@ main .projects-btn {
     background-image: linear-gradient(45deg, var(--primary-btn-color), var(--secondary-btn-color));
     color: var(--primary-text-color);
     cursor: pointer;
-    transition: font-size .7s;
+    transition: all .5s;
 }
 
 main .projects-btn:hover {
+    width: 385px;
     background-image: linear-gradient(45deg, #cb61fc, #7103a3);
 }
 
@@ -392,10 +394,11 @@ main .sobre-btn {
     background-image: linear-gradient(45deg, var(--primary-btn-color), var(--secondary-btn-color));
     color: var(--primary-text-color);
     cursor: pointer;
-    transition: font-size .7s;
+    transition: all .5s;
 }
 
 main .sobre-btn:hover {
+    width: 365px;
     background-image: linear-gradient(45deg, #cb61fc, #7103a3);
 }
 
@@ -429,6 +432,24 @@ main .contato-list {
     list-style: none;
 }
 
+main .contato-list li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    background-image: linear-gradient(45deg, var(--primary-btn-color), var(--secondary-btn-color));
+    filter: grayscale(1);
+    cursor: pointer;
+    transition: all .5s;
+}
+
+main .contato-list li:hover {
+    filter: grayscale(0);
+    width: 280px;
+}
+
 main .contato {
     text-decoration: none;
     font-family: 'Bebas Neue', sans-serif;
@@ -438,8 +459,10 @@ main .contato {
     transition: color .4s;
 }
 
-main .contato:hover {
-    color: var(--primary-btn-color);
+main .contato-email {
+    font-size: 20px;
+    margin-top: 20px;
+    color: rgb(168, 168, 168);
 }
 
 footer {
